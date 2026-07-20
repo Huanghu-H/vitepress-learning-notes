@@ -1,0 +1,15 @@
+{
+  "name": "vitepress-learning-notes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "由 GitHub Actions 自动构建并部署到 GitHub Pages 的 VitePress 学习笔记",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}
